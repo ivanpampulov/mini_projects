@@ -49,10 +49,13 @@ min_temp = ceil(kelvin_to_celsius(temperature_dict["min_temp"]))
 max_temp = ceil(kelvin_to_celsius(temperature_dict["max_temp"]))
 
 
-print(f'The temperature in {city} currently is {ceil(kelvin_to_celsius(temperature_dict["current_temp"]))} Celsius')
-print(f'Feels like {ceil(kelvin_to_celsius(temperature_dict["feels_like"]))} Celsius')
+print(f'The temperature in {city} currently is {current_temp} Celsius')
+print(f'Feels like {feels_like} Celsius')
 
-if
-print(f'The minimum temperature today will be {ceil(kelvin_to_celsius(temperature_dict["min_temp"]))} Celsius '
-      f'and the maximum - {ceil(kelvin_to_celsius(temperature_dict["max_temp"]))} Celsius')
+if min_temp == max_temp:
+    print(f'The minimum and maximum temperature today will be {min_temp}')
+
+else:
+    print(f'The minimum temperature today will be {min_temp} Celsius '
+      f'and the maximum - {max_temp} Celsius')
 
