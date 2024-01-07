@@ -33,6 +33,7 @@ def kelvin_to_celsius(temp):
     celsius_temp = temp - 273.15
     return celsius_temp
 
+
 input_city = input('What is the temperature in: ')
 city = input_city.capitalize()
 
@@ -58,4 +59,3 @@ if min_temp == max_temp:
 else:
     print(f'The minimum temperature today will be {min_temp} Celsius '
       f'and the maximum - {max_temp} Celsius')
-
