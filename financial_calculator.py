@@ -1,6 +1,5 @@
 '''
-3. Better print our messages - give interest and final amount on separate lines
-4. while cycle to ask if another operation is needed or to break with goodbye message
+3. Better print out messages - give interest and final amount on separate lines
 '''
 
 
@@ -73,7 +72,3 @@ while True:
         break
 
 print('Goodbye!')
-
-
-
-
