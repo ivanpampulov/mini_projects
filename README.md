@@ -18,7 +18,7 @@ In this project, students will develop a Python program that communicates with a
 -  Currency exchange rate API (e.g., Open Exchange Rates)
 -  Public transportation data (e.g., using Google Maps API)
 
-# Finance Calculator App
+# Finance Calculator App (financial_calculator.py)
 
 ### Objective: 
 Create a Python application that allows users to perform basic financial calculations. The application should use functions to handle various financial operations such as interest rate calculations, loan payments, and savings projections.
